@@ -34,8 +34,15 @@ class indexController extends Controlador {
             $ficha->create();
 
             views::asignar("mensaje","Se ha creado exitósamente la ficha {$nombre}");
-            Redirect::toView('index');
+            $this->index();
         }
+    }
+    
+    public function destruir() {
+        $ficha = new Ficha();
+        $ficha->delete($this::get('id'));
+        views::asignar("mensaje","Se ha eliminado correctamente");
+        $this->index();
     }
 
 }
