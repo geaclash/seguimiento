@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="090ba874-da47-41dd-a125-14d2b793a99d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/6841fbdcf938e1dcd6cb01db18a75c47254505e3_0.file.index.tpl.php" afterPath="$PROJECT_DIR$/cache/6841fbdcf938e1dcd6cb01db18a75c47254505e3_0.file.index.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/b6443cb9038e8433a1c336e0905ddcc4097aaf25_0.file.create.tpl.php" afterPath="$PROJECT_DIR$/cache/b6443cb9038e8433a1c336e0905ddcc4097aaf25_0.file.create.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controladores/indexController.php" afterPath="$PROJECT_DIR$/controladores/indexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/redirect.php" afterPath="$PROJECT_DIR$/helpers/redirect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/create.tpl" afterPath="$PROJECT_DIR$/vistas/create.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/index.tpl" afterPath="$PROJECT_DIR$/vistas/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modal.tpl" afterPath="$PROJECT_DIR$/vistas/modal.tpl" />
     </list>
     <ignored path="seguimiento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +66,8 @@
       <file leaf-file-name="modal.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vistas/modal.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -80,8 +76,8 @@
       <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vistas/index.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="425">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -309,16 +305,16 @@
       <workItem from="1482536345431" duration="12104000" />
       <workItem from="1482549542334" duration="1196000" />
       <workItem from="1482554914223" duration="504000" />
-      <workItem from="1482586003610" duration="1371000" />
+      <workItem from="1482586003610" duration="2197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15175000" />
+    <option name="totallyTimeSpent" value="16001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2648855" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -326,7 +322,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,14 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controladores/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -671,10 +659,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modal.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="17" column="93" selection-start-line="17" selection-start-column="93" selection-end-line="17" selection-end-column="93" />
           <folding />
         </state>
       </provider>

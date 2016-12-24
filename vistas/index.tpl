@@ -21,9 +21,9 @@
                 <td>{$ficha['titulo']}</td>
                 <td>{$ficha['fecha_creacion']}</td>
                 <td>{$ficha['logo']}</td>
-                <td><a href="index.php?view=index&accion=edit&id={$ficha['id']}" class="btn btn-primary">Editar</a> <a class="btn btn-danger" href="index.php?view=index&accion=delete&id={$ficha['id']} ">Eliminar</a></td>
+                <td><a href="index.php?view=index&accion=edit&id={$ficha['id']}" class="btn btn-primary">Editar</a> <a class="btn btn-danger" data-target="#modal-delete-{$ficha['id']}" data-toggle="modal">Eliminar</a></td>
             </tr>
-
+            {include file="modal.tpl" id=$ficha['id'] }
 
 
         {/foreach}
