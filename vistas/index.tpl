@@ -1,8 +1,9 @@
 
 {include file="app/templateH.tpl" title="Principal"}
 
-
+{include file="alert.tpl" type="info"}
 <div class="jumbotron">
+
     <table class="table table-bordered table-striped table-hover">
         <thead>
             <th>ID</th>

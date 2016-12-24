@@ -15,7 +15,7 @@
             </div>
             <div class="modal-footer">
                 <button class="btn" type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                <a href="index.php?view=index&accion=destroy&id={$id}"class="btn btn-primary">Confirmar</a>
+                <a href="index.php?view=index&accion=destruir&id={$id}"class="btn btn-primary">Confirmar</a>
         </div>
     </div>
 </div>
