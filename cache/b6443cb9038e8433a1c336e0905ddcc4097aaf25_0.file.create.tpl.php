@@ -1,28 +1,29 @@
 <?php
-/* Smarty version 3.1.31, created on 2016-12-24 03:42:01
+/* Smarty version 3.1.31, created on 2016-12-24 14:39:35
   from "C:\xampp\htdocs\seguimiento\vistas\create.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_585de079308988_51860794',
+  'unifunc' => 'content_585e7a97c160c7_77322217',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b6443cb9038e8433a1c336e0905ddcc4097aaf25' => 
     array (
       0 => 'C:\\xampp\\htdocs\\seguimiento\\vistas\\create.tpl',
-      1 => 1482547318,
+      1 => 1482586583,
       2 => 'file',
     ),
   ),
   'includes' => 
   array (
     'file:app/templateH.tpl' => 1,
+    'file:alert.tpl' => 1,
     'file:app/templateF.tpl' => 1,
   ),
 ),false)) {
-function content_585de079308988_51860794 (Smarty_Internal_Template $_smarty_tpl) {
+function content_585e7a97c160c7_77322217 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php $_smarty_tpl->_subTemplateRender("file:app/templateH.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>"Principal"), 0, false);
@@ -34,17 +35,10 @@ function content_585de079308988_51860794 (Smarty_Internal_Template $_smarty_tpl)
 
 <div class="jumbotron">
 
+    <?php $_smarty_tpl->_subTemplateRender("file:alert.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('tipo'=>"warning"), 0, false);
+?>
 
-    <?php if (isset($_smarty_tpl->tpl_vars['mensaje']->value)) {?>
-        <div class="alert">
-            <div class="alert alert-info alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <?php echo $_smarty_tpl->tpl_vars['mensaje']->value;?>
-
-            </div>
-        </div>
-    <?php }?>
-    <form action="index.php?view=create&accion=create" class="form-signup" role="form" method="POST">
+    <form action="index.php?view=index&accion=guardar" class="form-signup" role="form" method="POST">
 
         <label for="nombre">
             Nombre:

@@ -6,16 +6,8 @@
 
 <div class="jumbotron">
 
-
-    {if isset($mensaje) }
-        <div class="alert">
-            <div class="alert alert-info alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                {$mensaje}
-            </div>
-        </div>
-    {/if}
-    <form action="index.php?view=create&accion=create" class="form-signup" role="form" method="POST">
+    {include file="alert.tpl" tipo="warning" }
+    <form action="index.php?view=index&accion=guardar" class="form-signup" role="form" method="POST">
 
         <label for="nombre">
             Nombre:
