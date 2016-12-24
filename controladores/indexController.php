@@ -40,8 +40,45 @@ class indexController extends Controlador {
     
     public function destruir() {
         $ficha = new Ficha();
-        $ficha->delete($this::get('id'));
-        views::asignar("mensaje","Se ha eliminado correctamente");
+        if ($ficha->get($this::get('id'))) {
+            $ficha->delete($this::get('id'));
+            views::asignar("mensaje","Se ha eliminado correctamente");
+            $this->index();
+        }else {
+            views::asignar("type","danger");
+            views::asignar("mensaje","No se encontró la ficha {$this::get('id')}");
+
+            $this->index();
+        }
+
+    }
+
+
+    public function edit() {
+        $id = $this::get('id');
+
+        $ficha = new Ficha();
+        $ficha_get = $ficha->get($id);
+        views::asignar("ficha",$ficha_get);
+        views::mostrar('edit');
+    }
+
+
+    public function update() {
+        $id = $this::get('id');
+        if (!$id) {
+            Redirect::toView('index');
+        }
+        if ($this->accion == "POST") {
+            $ficha = new Ficha();
+
+            $ficha->nombre = $this::post('nombre');
+            $ficha->titulo = $this::post('titulo');
+
+            $ficha->update($id);
+
+            views::asignar("mensaje","Se ha editado correctamente");
+        }
         $this->index();
     }
 

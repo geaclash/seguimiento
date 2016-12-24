@@ -45,10 +45,12 @@ class Modelo {
 			$res=$res.$col.'=\''.$this->$col.'\',';
 		}
 		$res=trim($res,',');
-		$this->BD->query("UPDATE {$this->tabla} SET {$res} WHERE $this->primaryKey={$id}");
+		$sql = "UPDATE {$this->tabla} SET {$res} WHERE $this->primaryKey={$id}";
+
+		$this->BD->query($sql);
 		foreach ($this->columnas as $col) {	$this->BD->bind(':'.$col,$this->$col); }
 		$this->BD->execute();
-		
+
 	}
 
 	public function getAll() {

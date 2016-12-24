@@ -1,9 +1,9 @@
 
 {include file="app/templateH.tpl" title="Principal"}
 
-{include file="alert.tpl" type="info"}
+{include file="alert.tpl"}
 <div class="jumbotron">
-
+    <h2>Lista de fichas</h2>
     <table class="table table-bordered table-striped table-hover">
         <thead>
             <th>ID</th>
